@@ -121,12 +121,14 @@ const Projects = () => {
                   >
                     Live Demo
                   </a>
-                  <a 
-                    href={project.githubUrl}
-                    className="flex-1 text-center py-2 border border-gray-300 text-gray-700 text-sm font-medium rounded-lg hover:border-blue-600 hover:text-blue-600 transition-all duration-200"
-                  >
-                    View Code
-                  </a>
+                  {project.githubUrl && (
+                    <a 
+                      href={project.githubUrl}
+                      className="flex-1 text-center py-2 border border-gray-300 text-gray-700 text-sm font-medium rounded-lg hover:border-blue-600 hover:text-blue-600 transition-all duration-200"
+                    >
+                      View Code
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
