@@ -9,6 +9,23 @@ import portfolio from "../../public/images/portfolio.png";
 
 const Projects = () => {
   const projects = [
+    
+    {
+      title: "Portfolio Website",
+      description: "A fully responsive and modern portfolio website built with React, Tailwind CSS, and powered by Vite for high performance and fast development. This project showcases professional experience, technical skills, and featured projects in a clean and interactive layout. Designed with attention to UI/UX details, it includes smooth animations, a contact section, and dynamic routing to present a developer profile effectively. The codebase is organized and maintainable, with ESLint and TypeScript ensuring strong code quality throughout.",
+      image: portfolio,
+      tags: ["React", "Tailwind CSS", "Swiper", "Font Awesome"],
+      liveUrl: "https://portfolio-ansar-k3js.vercel.app/",
+      githubUrl: "https://github.com/ansarSultan999/Portfolio-Ansar.git"
+    },
+    {
+      title: "AI Resume Builder",
+      description: "AI Resume Builder is a modern web application built using React.js, Tailwind CSS, and integrated with OpenAI's API to generate optimized, job-ready resumes in seconds. It offers a user-friendly interface with real-time content suggestions based on user input and target job roles. Designed for efficiency, it simplifies resume creation using AI-powered text generation and responsive design.",
+      image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+      tags: [ "OpenAI API", "React", "FastAPI", "Tailwind CSS"],
+      liveUrl: "https://ai-resume-builder-three-pi.vercel.app/",
+      githubUrl: "https://github.com/ansarSultan999/Ai-resume-builder.git"
+    },
     {
       title: "Dans Air Space Managment API",
       description: "A government-level project developed for the Dubai aviation sector using HTML, CSS, JavaScript, and Bootstrap. This web application is designed to manage and visualize restricted airspace zones with precision. It features interactive forms, user-friendly layouts, and a responsive design for seamless performance across all devices. The system enables real-time airspace scheduling, altitude configuration, and efficient data handling tailored for administrative use.",
@@ -39,23 +56,7 @@ const Projects = () => {
       tags: ["Javascript", "HTML", "CSS", "Bootsrap"],
       liveUrl: "https://neon-sunburst-1b8a25.netlify.app/",
      
-    },
-    {
-      title: "Portfolio Website",
-      description: "A fully responsive and modern portfolio website built with React, Tailwind CSS, and powered by Vite for high performance and fast development. This project showcases professional experience, technical skills, and featured projects in a clean and interactive layout. Designed with attention to UI/UX details, it includes smooth animations, a contact section, and dynamic routing to present a developer profile effectively. The codebase is organized and maintainable, with ESLint and TypeScript ensuring strong code quality throughout.",
-      image: portfolio,
-      tags: ["React", "Tailwind CSS", "Swiper", "Font Awesome"],
-      liveUrl: "https://portfolio-ansar-k3js.vercel.app/",
-      githubUrl: "https://github.com/ansarSultan999/Portfolio-Ansar.git"
-    },
-    // {
-    //   title: "AI Content Generator",
-    //   description: "An AI-powered content generation tool that helps create blog posts, social media content, and marketing copy using advanced language models.",
-    //   image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-    //   tags: ["Python", "OpenAI API", "React", "FastAPI"],
-    //   liveUrl: "#",
-    //   githubUrl: "#"
-    // }
+    }
   ];
 
   return (
