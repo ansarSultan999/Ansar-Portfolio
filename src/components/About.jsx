@@ -97,10 +97,17 @@ Shahrah E Faisal,Karachi
                   </div>
                   </li>
                    <li>
-                  <div className="font-semibold text-gray-900">Company</div>
-                  <div className="text-xs text-gray-400">2025</div>
+                  <div className="font-semibold text-gray-900">Arteontechnology</div>
+                  <div className="text-xs text-gray-400">2025 - August 2025</div>
                   <div className="text-gray-700 text-sm mt-1">
-                   working as a Frontend Developer in Arteontechnology Company
+                   Working as a Full Stack Developer in Arteontechnology Company
+                  </div>
+                </li>
+                <li>
+                  <div className="font-semibold text-gray-900">Softwareforge</div>
+                  <div className="text-xs text-gray-400">August 2025 - Present</div>
+                  <div className="text-gray-700 text-sm mt-1">
+                   Working as a Full Stack Developer in Softwareforge Company
                   </div>
                 </li>
               </ul>
@@ -125,6 +132,14 @@ Sargodha,Punjab
                   <div className="text-gray-700 text-sm mt-1">
                     Inter Computer Science <br />
 Sargodha, Punjab
+                  </div>
+                </li>
+                <li>
+                  <div className="font-semibold text-gray-900">BSCS</div>
+                  <div className="text-xs text-gray-400">2022 - 2025</div>
+                  <div className="text-gray-700 text-sm mt-1">
+                    Bachelor of Science in Computer Science <br />
+                    Virtual University of Pakistan
                   </div>
                 </li>
               </ul>

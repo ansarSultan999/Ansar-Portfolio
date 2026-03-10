@@ -40,14 +40,14 @@ const Contact = () => {
     {
       icon: <Phone className="text-green-600" size={24} />,
       title: "Phone",
-      content: "0317 0565813",
-      link: "tel:0317 0565813"
+      content: "0315 7511825",
+      link: "tel:0315 7511825"
     },
     {
       icon: <MapPin className="text-red-600" size={24} />,
       title: "Location",
-      content: "Manzoor Colony, Karachi, Pakistan",
-      link: "https://maps.app.goo.gl/bEYcFTymHW2JZoVd8"
+      content: " Bahria town phase 6, Islamabad, Pakistan",
+      link: "https://www.google.com/maps/search/Bahria+Town+Phase+6+Islamabad"
     }
   ];
 

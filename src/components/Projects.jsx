@@ -3,20 +3,20 @@ import { ExternalLink, Github } from 'lucide-react';
 import dans from "../../public/images/Dans.png";
 import dublio from "../../public/images/dublio.png";
 import Service from "../../public/images/talent-hub.png";
-import vms from "../../public/images/vms.png";
-import portfolio from "../../public/images/portfolio.png";
+import vms from "../../public/images/bigfleet.png";
+import portfolio from "../../public/images/ecf.png";
 
 
 const Projects = () => {
   const projects = [
     
     {
-      title: "Portfolio Website",
-      description: "A fully responsive and modern portfolio website built with React, Tailwind CSS, and powered by Vite for high performance and fast development. This project showcases professional experience, technical skills, and featured projects in a clean and interactive layout. Designed with attention to UI/UX details, it includes smooth animations, a contact section, and dynamic routing to present a developer profile effectively. The codebase is organized and maintainable, with ESLint and TypeScript ensuring strong code quality throughout.",
+      title: "Elite Club Fitness - Gym Website",
+      description: "A professional and fully responsive gym website built for Elite Club Fitness, a premium fitness facility in the UK. The site features a sleek modern design with sections for gym memberships, class schedules, personal training services, and facility highlights. Designed to drive member engagement and conversions, it delivers a smooth browsing experience across all devices with an energetic layout, compelling call-to-action buttons, and a clean user interface that reflects the brand's elite identity.",
       image: portfolio,
-      tags: ["React", "Tailwind CSS", "Swiper", "Font Awesome"],
-      liveUrl: "https://portfolio-ansar-k3js.vercel.app/",
-      githubUrl: "https://github.com/ansarSultan999/Portfolio-Ansar.git"
+      tags: ["Next.js", "Tailwind CSS", "TypeScript"],
+      liveUrl: "https://www.eliteclubfitness.co.uk/elite-gym",
+      // githubUrl: "https://github.com/ansarSultan999/Portfolio-Ansar.git"
     },
     {
       title: "AI Resume Builder",
@@ -24,7 +24,7 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: [ "OpenAI API", "React", "FastAPI", "Tailwind CSS"],
       liveUrl: "https://ai-resume-builder-three-pi.vercel.app/",
-      githubUrl: "https://github.com/ansarSultan999/Ai-resume-builder.git"
+      // githubUrl: "https://github.com/ansarSultan999/Ai-resume-builder.git"
     },
     {
       title: "Dans Air Space Managment API",
@@ -47,15 +47,14 @@ const Projects = () => {
       image: Service,
       tags: ["React", "Tailwind", "Jawasript", "Supabase","TypeScript"],
       liveUrl: "https://fazi-project.vercel.app/",
-      githubUrl: "https://github.com/ansarSultan999/Fazi-project.git"
+      // githubUrl: "https://github.com/ansarSultan999/Fazi-project.git"
     },
     {
-      title: "Dans Air Space Managment VMS",
-      description: "A government-level project developed for the Dubai aviation sector using HTML, CSS, JavaScript, and Bootstrap. This web application is designed to manage and visualize restricted airspace zones with precision. It features interactive forms, user-friendly layouts, and a responsive design for seamless performance across all devices. The system enables real-time airspace scheduling, altitude configuration, and efficient data handling tailored for administrative use.",
+      title: "BigFleet - Car Booking Platform",
+      description: "A comprehensive car booking and fleet management platform built with Next.js, TypeScript, and JavaScript. BigFleet offers a seamless vehicle reservation experience with three dedicated dashboards — Vendor, Corporate, and Admin — each tailored with role-specific controls and workflows. The platform enables vendors to manage their fleets, corporates to handle employee bookings, and admins to oversee the entire system. Designed with a clean, responsive UI and robust backend integration for real-time booking management.",
       image: vms,
-      tags: ["Javascript", "HTML", "CSS", "Bootsrap"],
-      liveUrl: "https://neon-sunburst-1b8a25.netlify.app/",
-     
+      tags: ["Next.js", "TypeScript", "JavaScript"],
+      liveUrl: "https://bigfleet.salyhal.com/",
     }
   ];
 

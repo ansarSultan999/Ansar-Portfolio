@@ -53,7 +53,7 @@ const Hero = () => {
             </button>
             <a
   href="/AnsarSultan.pdf"
-  download="AnsarSultan_CV.pdf"
+  download="Ansar_CV_ATS_Optimized_With_Links.pdf"
 >
   <button className="px-8 py-4 border-2 border-white text-white font-semibold rounded-full hover:border-blue-600 hover:text-blue-600  transform hover:scale-105 transition-all duration-300">
     Download CV
