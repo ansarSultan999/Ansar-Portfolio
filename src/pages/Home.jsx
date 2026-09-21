@@ -137,7 +137,7 @@ const Home = () => {
             <Link to="/projects" className="group inline-flex items-center gap-2 px-8 py-4 bg-white text-gray-900 font-black rounded-full hover:bg-blue-50 transition-all duration-300 hover:scale-105 shadow-xl text-sm">
               View My Work <ArrowRight size={15} className="group-hover:translate-x-1 transition-transform" />
             </Link>
-            <a href="/AnsarSultan.pdf" download className="inline-flex items-center gap-2 px-8 py-4 border border-white/[0.12] text-white font-bold rounded-full hover:border-blue-400/50 hover:bg-white/[0.04] transition-all duration-300 hover:scale-105 text-sm">
+            <a href="/images/Anser-updated-resume.pdf" download="Ansar_Sultan_Updated_CV.pdf" className="inline-flex items-center gap-2 px-8 py-4 border border-white/[0.12] text-white font-bold rounded-full hover:border-blue-400/50 hover:bg-white/[0.04] transition-all duration-300 hover:scale-105 text-sm">
               Download CV
             </a>
           </div>
